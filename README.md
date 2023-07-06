@@ -24,3 +24,11 @@
 5. Componente TaskDetail
    Crear un componente para mostrar el detalle de una tarea.
    Crear un método para obtener una tarea.
+
+6. Servicio TaskService
+   Crear un servicio para gestionar las tareas.
+   Crear un método para obtener las tareas.
+   Crear un método para obtener una tarea.
+   Crear un método para crear una tarea.
+   Crear un método para editar una tarea.
+   Crear un método para eliminar una tarea.
