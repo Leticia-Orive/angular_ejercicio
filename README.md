@@ -20,3 +20,7 @@
    Crear un componente para crear y editar tareas.
    Crear un método para crear una tarea.
    Crear un método para editar una tarea.
+
+5. Componente TaskDetail
+   Crear un componente para mostrar el detalle de una tarea.
+   Crear un método para obtener una tarea.

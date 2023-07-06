@@ -1,1 +1,28 @@
-<p>task-detail works!</p>
+<h2>Task Detail</h2>
+
+<div *ngIf="task">
+  <div>
+    <label>Title:</label>
+    <span>{{ task.title }}</span>
+  </div>
+
+  <div>
+    <label>Description:</label>
+    <span>{{ task.description }}</span>
+  </div>
+
+  <div>
+    <label>State:</label>
+    <span>{{ task.state }}</span>
+  </div>
+
+  <div>
+    <label>Priority:</label>
+    <span>{{ task.priority }}</span>
+  </div>
+
+  <div>
+    <label>Due Date:</label>
+    <span>{{ task.dueDate | date }}</span>
+  </div>
+</div>
