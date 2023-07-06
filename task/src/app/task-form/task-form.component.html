@@ -1,1 +1,29 @@
-<p>task-form works!</p>
+<h2>Task Form</h2>
+
+<div>
+  <label>Title:</label>
+  <input type="text" [(ngModel)]="task.title" />
+</div>
+
+<div>
+  <label>Description:</label>
+  <textarea [(ngModel)]="task.description"></textarea>
+</div>
+
+<div>
+  <label>State:</label>
+  <input type="text" [(ngModel)]="task.state" />
+</div>
+
+<div>
+  <label>Priority:</label>
+  <input type="text" [(ngModel)]="task.priority" />
+</div>
+
+<div>
+  <label>Due Date:</label>
+  <input type="date" [(ngModel)]="task.dueDate" />
+</div>
+
+<button (click)="createTask()">Create Task</button>
+<button (click)="editTask()">Edit Task</button>

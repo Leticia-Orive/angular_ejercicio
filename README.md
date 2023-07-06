@@ -15,3 +15,8 @@
    Crear un método para eliminar una tarea.
    Crear un método para editar una tarea.
    Crear un método para crear una tarea.
+
+4. Componente TaskForm
+   Crear un componente para crear y editar tareas.
+   Crear un método para crear una tarea.
+   Crear un método para editar una tarea.
