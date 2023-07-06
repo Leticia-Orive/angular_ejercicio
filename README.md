@@ -32,3 +32,14 @@
    Crear un método para crear una tarea.
    Crear un método para editar una tarea.
    Crear un método para eliminar una tarea.
+
+7. Módulo TaskModule
+   Crear un módulo para gestionar las tareas
+
+8. Módulo AppRoutingModule
+   Crear un módulo para gestionar las rutas
+
+9. Rutas
+   Crear las rutas para el componente TaskList.
+   Crear las rutas para el componente TaskForm.
+   Crear las rutas para el componente TaskDetail
