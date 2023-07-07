@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Task } from '../task.interface';
 import { TaskService } from '../task.service';
 
@@ -17,7 +17,7 @@ export class TaskFormComponent implements OnInit {
     dueDate: new Date(),
   };
 
-  constructor(@Inject(TaskService) public taskService: TaskService) {}
+  constructor(public taskService: TaskService) {}
 
   ngOnInit(): void {}
 
